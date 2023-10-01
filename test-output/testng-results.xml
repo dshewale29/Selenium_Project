@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Method1]]>
+    </line>
+    <line>
+      <![CDATA[Method2]]>
+    </line>
+    <line>
+      <![CDATA[Method3]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-24T17:10:53 IST" name="Default suite" finished-at="2023-09-24T17:10:53 IST" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2023-09-24T17:10:53 IST" name="Default test" finished-at="2023-09-24T17:10:53 IST" duration-ms="47">
+      <class name="testNGAnnotations_Flags.Flag1">
+        <test-method signature="method1()[pri:0, instance:testNGAnnotations_Flags.Flag1@7ef82753]" started-at="2023-09-24T17:10:53 IST" name="method1" description="Performs Login " finished-at="2023-09-24T17:10:53 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="method2()[pri:0, instance:testNGAnnotations_Flags.Flag1@7ef82753]" started-at="2023-09-24T17:10:53 IST" name="method2" description="Performs Create user" finished-at="2023-09-24T17:10:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method signature="method3()[pri:0, instance:testNGAnnotations_Flags.Flag1@7ef82753]" started-at="2023-09-24T17:10:53 IST" name="method3" description="Performs Log out" finished-at="2023-09-24T17:10:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- testNGAnnotations_Flags.Flag1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
